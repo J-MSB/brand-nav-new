@@ -1,11 +1,8 @@
-// import type { NextConfig } from "next";
+import type { NextConfig } from "next";
 
-// const nextConfig: NextConfig = {
-//   /* config options here */
-// };
+const nextConfig: NextConfig = {
+  basePath: '/brand-nav-new'
+};
 
-// export default nextConfig;
+export default nextConfig;
 
-module.exports = {
-  basePath: '/brand-nav-new',  // Replace with your GitHub repository name
-}
