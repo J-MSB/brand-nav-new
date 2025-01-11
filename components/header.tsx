@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className=" px-20 flex justify-between items-center">
       <div className="flex justify-between items-center">
-        <Image aria-hidden src="/logo.svg" alt="logo" width={120} height={20} />
+        <Image aria-hidden src="/logo.svg" alt="logo" width={120} height={20} unoptimized />
         <div className="flex px-10">
           <Link href="/products" className="p-3 text-sm flex text-center">
             Products
