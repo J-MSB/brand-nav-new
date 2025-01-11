@@ -8,12 +8,12 @@ const ListItem = [
 ];
 export const FreeSpin = () => {
   return (
-    <div className="w-full flex justify-center items-center mt-7 pt-32 pb-32 bg-[url('../public/freeSpinBg.png')] bg-no-repeat bg-cover ">
+    <div className="w-full flex justify-center items-center mt-7 pt-32 pb-32 bg-[url('../public/images/freeSpinBg.png')] bg-no-repeat bg-cover ">
       <div className="bg-white rounded-lg px-5 py-16 w-96 h-4/5">
       <div className="flex flex-col items-center">
         <img
           aria-hidden
-          src="/gift 1.png"
+          src="/images/gift 1.png"
           alt="gift 1"
           width={80}
           height={80}
@@ -26,7 +26,7 @@ export const FreeSpin = () => {
         <div className="flex my-4">
           <img
             aria-hidden
-            src="/Vector.svg"
+            src="/images/Vector.svg"
             alt="Vector"
             width={16}
             height={16}
@@ -35,7 +35,7 @@ export const FreeSpin = () => {
           <div className="mr-2 text-xs">No credit card required |</div>
           <img
             aria-hidden
-            src="/emojione_star.svg"
+            src="/images/emojione_star.svg"
             alt="emojione_star"
             width={13}
             height={13}
@@ -50,7 +50,7 @@ export const FreeSpin = () => {
                 <li key={item} className="flex my-3 ">
                   <img
                     aria-hidden
-                    src="/SUCCESS.svg"
+                    src="/images/SUCCESS.svg"
                     alt="SUCCESS"
                     width={17}
                     height={17}
@@ -65,7 +65,7 @@ export const FreeSpin = () => {
         <div className="flex justify-center flex-col text-center mt-4">
         <img
             aria-hidden
-            src="/headshots.svg"
+            src="/images/headshots.svg"
             alt="headshots"
             width={202}
             height={35}

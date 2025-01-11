@@ -18,7 +18,7 @@ export const Dashboard = () => {
         <div className="flex ">
           <img
             aria-hidden
-            src="/Vector.svg"
+            src="/images/Vector.svg"
             alt="Vector"
             width={16}
             height={16}
@@ -29,7 +29,7 @@ export const Dashboard = () => {
         <div className="flex">
         <img
             aria-hidden
-            src="/five_star_review.svg"
+            src="/images/five_star_review.svg"
             alt="five_star_review"
             width={65}
             height={13}
@@ -43,7 +43,7 @@ export const Dashboard = () => {
       <div className="flex justify-center -mt-8">
       <img
             aria-hidden
-            src="/verifier card.svg"
+            src="/images/verifier card.svg"
             alt="verifier card"
             width={256}
             height={300}
@@ -51,7 +51,7 @@ export const Dashboard = () => {
           />
             <img
             aria-hidden
-            src="/screener card.svg"
+            src="/images/screener card.svg"
             alt="screener card"
             width={256}
             height={208}
@@ -60,7 +60,7 @@ export const Dashboard = () => {
 
            <img
             aria-hidden
-            src="/blacklist_shield_card.svg"
+            src="/images/blacklist_shield_card.svg"
             alt="blacklist_shield_card"
             width={256}
             height={208}
@@ -68,7 +68,7 @@ export const Dashboard = () => {
           />
            <img
             aria-hidden
-            src="/enricher card.png"
+            src="/images/enricher card.png"
             alt="enricher png"
             width={256}
             height={300}
@@ -81,7 +81,7 @@ export const Dashboard = () => {
         <div className="flex justify-center items-center mt-5">
         <img
             aria-hidden
-            src="/logo 1.svg"
+            src="/images/logo 1.svg"
             alt="logo 1"
             width={175}
             height={18}
@@ -89,7 +89,7 @@ export const Dashboard = () => {
           />
            <img
             aria-hidden
-            src="/logo 2.svg"
+            src="/images/logo 2.svg"
             alt="logo 2"
             width={122}
             height={17}
@@ -97,7 +97,7 @@ export const Dashboard = () => {
           />
            <img
             aria-hidden
-            src="/logo 3.svg"
+            src="/images/logo 3.svg"
             alt="logo 3"
             width={83.27}
             height={34}
@@ -105,7 +105,7 @@ export const Dashboard = () => {
           />
            <img
             aria-hidden
-            src="/logo 4.svg"
+            src="/images/logo 4.svg"
             alt="logo 4"
             width={46}
             height={29}
@@ -113,7 +113,7 @@ export const Dashboard = () => {
           />
            <img
             aria-hidden
-            src="/logo 5.svg"
+            src="/images/logo 5.svg"
             alt="logo 5"
             width={61}
             height={33}
