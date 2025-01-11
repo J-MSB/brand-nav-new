@@ -11,7 +11,7 @@ export const FreeSpin = () => {
     <div className="w-full flex justify-center items-center mt-7 pt-32 pb-32 bg-[url('../public/freeSpinBg.png')] bg-no-repeat bg-cover ">
       <div className="bg-white rounded-lg px-5 py-16 w-96 h-4/5">
       <div className="flex flex-col items-center">
-        <Image
+        <img
           aria-hidden
           src="/gift 1.png"
           alt="gift 1"
@@ -24,7 +24,7 @@ export const FreeSpin = () => {
           Grab free leads
         </button>
         <div className="flex my-4">
-          <Image
+          <img
             aria-hidden
             src="/Vector.svg"
             alt="Vector"
@@ -33,7 +33,7 @@ export const FreeSpin = () => {
             className="mr-1"
           />
           <div className="mr-2 text-xs">No credit card required |</div>
-          <Image
+          <img
             aria-hidden
             src="/emojione_star.svg"
             alt="emojione_star"
@@ -48,7 +48,7 @@ export const FreeSpin = () => {
             {ListItem.map((item) => {
               return (
                 <li key={item} className="flex my-3 ">
-                  <Image
+                  <img
                     aria-hidden
                     src="/SUCCESS.svg"
                     alt="SUCCESS"
@@ -63,7 +63,7 @@ export const FreeSpin = () => {
           </ul>
         </div>
         <div className="flex justify-center flex-col text-center mt-4">
-        <Image
+        <img
             aria-hidden
             src="/headshots.svg"
             alt="headshots"
