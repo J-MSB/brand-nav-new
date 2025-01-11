@@ -4,13 +4,13 @@ export const Header = () => {
   return (
     <div className=" px-20 flex justify-between items-center">
       <div className="flex justify-between items-center">
-        <img aria-hidden src="/images/logo.svg" alt="logo" width={120} height={20}  />
+        <img aria-hidden src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logo.svg`} alt="logo" width={120} height={20}  />
         <div className="flex px-10">
           <Link href="/products" className="p-3 text-sm flex text-center">
             Products
             <img
               aria-hidden
-              src="/images/down_arrow.svg"
+              src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/down_arrow.svg`}
               alt="logo"
               width={16}
               height={16}
@@ -27,7 +27,7 @@ export const Header = () => {
             Resources
             <img
               aria-hidden
-              src="/images/down_arrow.svg"
+              src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/down_arrow.svg`}
               alt="logo"
               width={16}
               height={16}

@@ -13,7 +13,7 @@ export const FreeSpin = () => {
       <div className="flex flex-col items-center">
         <img
           aria-hidden
-          src="/images/gift 1.png"
+          src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/gift 1.png`}
           alt="gift 1"
           width={80}
           height={80}
@@ -26,7 +26,7 @@ export const FreeSpin = () => {
         <div className="flex my-4">
           <img
             aria-hidden
-            src="/images/Vector.svg"
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/Vector.svg`}
             alt="Vector"
             width={16}
             height={16}
@@ -35,7 +35,7 @@ export const FreeSpin = () => {
           <div className="mr-2 text-xs">No credit card required |</div>
           <img
             aria-hidden
-            src="/images/emojione_star.svg"
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/emojione_star.svg`}
             alt="emojione_star"
             width={13}
             height={13}
@@ -50,7 +50,7 @@ export const FreeSpin = () => {
                 <li key={item} className="flex my-3 ">
                   <img
                     aria-hidden
-                    src="/images/SUCCESS.svg"
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/SUCCESS.svg`}
                     alt="SUCCESS"
                     width={17}
                     height={17}
@@ -65,7 +65,7 @@ export const FreeSpin = () => {
         <div className="flex justify-center flex-col text-center mt-4">
         <img
             aria-hidden
-            src="/images/headshots.svg"
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/headshots.svg`}
             alt="headshots"
             width={202}
             height={35}
